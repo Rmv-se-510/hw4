@@ -35,11 +35,11 @@ By utilizing pipes, we can build powerful data pipelines that transform raw data
 
 <b>Key Commands</b>
 
-```grep: A command-line tool for searching plain-text data for lines that match a regular expression. It is highly useful for filtering output based on specific criteria.```
+```grep```: A command-line tool for searching plain-text data for lines that match a regular expression. It is highly useful for filtering output based on specific criteria.
 
-```sed: A stream editor used for parsing and transforming text in a pipeline. Common operations include substitution, deletion, and text manipulation.```
+```sed```: A stream editor used for parsing and transforming text in a pipeline. Common operations include substitution, deletion, and text manipulation.
 
-```gawk: A powerful text-processing language that enables pattern scanning and processing, making it ideal for extracting and manipulating data.```
+```gawk```: A powerful text-processing language that enables pattern scanning and processing, making it ideal for extracting and manipulating data.
 
 
 ### Installation and Usage
@@ -61,9 +61,9 @@ By utilizing pipes, we can build powerful data pipelines that transform raw data
 
 4. For windows based OS, change the end of line of sequence to LF
     ```vs editor
-    * Ctrl + Shift + p
-    * Type 'Change End of Line Sequence'
-    * Select LF
+    . Ctrl + Shift + p
+    > Type 'Change End of Line Sequence'
+    > Select LF
     ```
 
 
