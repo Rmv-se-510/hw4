@@ -5,12 +5,6 @@
 <br>
 
 <div align="center">
-        <img width="800" height="400" src="https://drive.google.com/file/d/1opR4s2bP49oyb3_NyCctykcWAcR5iivU/view?usp=sharing" alt="Data Wrangling">
-</div>
-
-<br>
-
-<div align="center">
 
 
 [![License](https://img.shields.io/badge/License-MIT-purple.svg?style=flat)](https://github.com/Rmv-se-510/hw4/main/LICENSE)
