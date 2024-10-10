@@ -15,4 +15,5 @@ echo $sorted_file
 
 # Step c: replace file_ with filtered_
 sub_file=$(echo $sorted_file | sed "s/file_/filtered_/g")
-echo "Output from Step c: "$sub_file
+echo "Output from Step c: "
+echo $sub_file
