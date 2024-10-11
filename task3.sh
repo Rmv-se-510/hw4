@@ -10,7 +10,7 @@
 # the passengers class should be 2, so $3 == 2
 # the passengers should have embarked to SouthAmpton so we use $13 ~ /S/
 stepa=$(gawk -F, 'NR >= 2 && $3 == 2 && $13 ~ /S/ {print $0}' titanic.csv)
-echo "$stepa"
+# echo "$stepa"
 
 # STEP B
 # replace male with M and replace female with F
@@ -21,7 +21,7 @@ stepb=$(echo "$stepa" | sed -e 's/,male,/,M,/' -e 's/,female,/,F,/')
 
 #STEP C
 # We want to calculate average age of the passengers from step b
-# First we will initialize the avg_age and count variable as 0 
+# First we will initialize the sum_age and count variable as 0 
 # then we will check for the condition whether age is missing or not.
 # if it is not missing increment counter, sum the age and print that line
 # finally check if the count is not 0, if not print average age.
